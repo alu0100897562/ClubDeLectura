@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title>Club de lectura - Ayuda</title>
+        <meta charset="utf-8">
+        <link href="img/favicon.png" type="image/x-icon" rel="icon">
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+
+        <!-- Barra de Navegación -->
+        <div role="heading">
+            <nav class="yellow darken-4">
+                    <div class="nav-wrapper container">
+                        <a href="index.html" class="brand-logo" id="logo">
+                            <img id="logo-img" src="img/favicon_blanco.png" alt="Logo del Club de Lectura">
+                            CDL
+                        </a>
+                    </div>
+            </nav>
+        </div>
+        
+        <!-- Dropdown Web -->
+        <ul id="dropdown-web" class="dropdown-content">
+            <li class="active"><a href="index01.html">Fantasía heroica</a></li>
+            <li><a href="index02.html">Ciencia ficción</a></li>
+            <li><a href="#">Infantil</a></li>
+            <li><a href="#">Ensayo</a></li>
+        </ul>
+
+        <!-- Dropdown SideNav -->
+        <ul id="dropdown-side" class="dropdown-content">
+            <li class="active"><a href="index01.html">Fantasía heroica</a></li>
+            <li><a href="index02.html">Ciencia ficción</a></li>
+            <li><a href="#">Infantil</a></li>
+            <li><a href="#">Ensayo</a></li>
+        </ul>
+
+        <nav class="yellow darken-4">
+            <div class="nav-wrapper container">
+                <ul class="left hide-on-med-and-down">
+                    <li><a id="logo-container" href="welcome.html">Inicio</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown-web">Géneros<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li class="active"><a id="logo-container" href="help.html">Ayuda</a></li>
+                </ul>
+                <!-- Navbar móvil -->
+                <ul class="sidenav" id="nav-mobile">
+                    <li><a id="logo-container" href="index.html">Inicio</a></li>
+                    <li class="active"><a class="dropdown-trigger" href="#!" data-target="dropdown-side">Géneros<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a id="logo-container" href="ayuda.html">Ayuda</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+
+        <!-- Contenido -->
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <div class="row center">
+                    <h1 class="header col s12">Ayuda</h1>
+                    <div>
+                        <h5 class="center">¿Cómo creo una cuenta?</h5>
+                        <p class="header col s12">En la pantalla de bienvenida dispones de la opción "REGÍSTRATE", solo debes pulsar sobre ella e introducir los datos con los que quieres acceder a la página.</p>
+                        <br><br><br>
+                        <h5 class="center">¿Cómo entro en la página?</h5>
+                        <p class="header col s12">En la pantalla de bienvenida dispones de la opción "INICIA SESIÓN", solo debes pulsar sobre ella e introducir los datos con los que quieres acceder a la página.</p>
+                        <br><br><br>
+                        <h5 class="center">¿Cómo puedo navegar por la página?</h5>
+                        <p class="header col s12">En el encabezado puedes distinguir una zona con las opciones: "Inicio", "Géneros", "Catálogo", etc..., solo debes pulsar sobre la opción que te interese.</p>
+                        <br><br><br>
+                        <h5 class="center">¿Cómo puedo buscar información sobre un libro específico?</h5>
+                        <p class="header col s12">En el encabezado puedes distinguir una zona con la opción "Catálogo", solo debes pulsar sobre ella (aun no está implementado).</p>
+                        <br><br><br>
+                        <h5 class="center">Es cierto que el mítico Papá Noel que nos trae los regalos de nochebuena, son los padres</h5>
+                        <p class="header col s12">Sin comentarios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer yellow darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <p class="white-text"><strong>GRUPO 6</strong></p>
+                        <p class="grey-text text-lighten-4">Alexandre | Borja | Manuel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © UyA - 2018-19 - Made by with <a class="orange-text text-lighten-3" href="http://materializecss.com" target="_blank">Materialize</a> and <a class="orange-text text-lighten-3" href="http://jquery.com/" target="_blank">jQuery</a>.
+                </div>
+            </div>
+        </footer>
+
+        <!-- Post-charged scripts -->
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/init-jq.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/dropdown.js"></script>
+    </body>
+</html>
